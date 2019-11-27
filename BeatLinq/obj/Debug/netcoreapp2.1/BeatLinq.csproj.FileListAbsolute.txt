@@ -1,0 +1,11 @@
+C:\Users\hulle\GitHub\BeatLinq\BeatLinq\bin\Debug\netcoreapp2.1\BeatLinq.deps.json
+C:\Users\hulle\GitHub\BeatLinq\BeatLinq\bin\Debug\netcoreapp2.1\BeatLinq.runtimeconfig.json
+C:\Users\hulle\GitHub\BeatLinq\BeatLinq\bin\Debug\netcoreapp2.1\BeatLinq.runtimeconfig.dev.json
+C:\Users\hulle\GitHub\BeatLinq\BeatLinq\bin\Debug\netcoreapp2.1\BeatLinq.dll
+C:\Users\hulle\GitHub\BeatLinq\BeatLinq\bin\Debug\netcoreapp2.1\BeatLinq.pdb
+C:\Users\hulle\GitHub\BeatLinq\BeatLinq\obj\Debug\netcoreapp2.1\BeatLinq.csprojAssemblyReference.cache
+C:\Users\hulle\GitHub\BeatLinq\BeatLinq\obj\Debug\netcoreapp2.1\BeatLinq.csproj.CoreCompileInputs.cache
+C:\Users\hulle\GitHub\BeatLinq\BeatLinq\obj\Debug\netcoreapp2.1\BeatLinq.AssemblyInfoInputs.cache
+C:\Users\hulle\GitHub\BeatLinq\BeatLinq\obj\Debug\netcoreapp2.1\BeatLinq.AssemblyInfo.cs
+C:\Users\hulle\GitHub\BeatLinq\BeatLinq\obj\Debug\netcoreapp2.1\BeatLinq.dll
+C:\Users\hulle\GitHub\BeatLinq\BeatLinq\obj\Debug\netcoreapp2.1\BeatLinq.pdb
