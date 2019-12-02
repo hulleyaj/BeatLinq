@@ -6,11 +6,11 @@ namespace BeatLinq
 {
     class FileReader
     {
-        public static List<Person> ReadFile()
+        public static List<Record> ReadFile(string fileName)
         {
-            string json = File.ReadAllText(@"..\..\..\data.json");
+            string json = File.ReadAllText(fileName);
 
-            return JsonSerializer.Deserialize<List<Person>>(json);
+            return JsonSerializer.Deserialize<List<Record>>(json);
         }
     }
 }

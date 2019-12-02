@@ -1,25 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
-using System.Text.Json;
 using System.Linq;
 
 namespace BeatLinq
 {
     class List
     {
-        public static void Run()
+        public static void Run(string fileName, string guid)
         {
-            List<Person> people = FileReader.ReadFile();
-            FindById(people, 789);
+            List<Record> records = FileReader.ReadFile(fileName);
+            Stopwatch stopwatch = Stopwatch.StartNew();
+            Record record = FindByGuid(records, guid);
+            long totalTicks = stopwatch.ElapsedTicks;
+            Console.WriteLine($"List found {record.Guid} {record.Name} in {totalTicks} ticks");
         }
 
-        public static void FindById(List<Person> people, int id)
+        public static Record FindByGuid(List<Record> records, string guid)
         {
-            Stopwatch stopwatch = Stopwatch.StartNew();
-            people.First(p => p.Id == id);
-            Console.WriteLine($"Person found in {stopwatch.ElapsedTicks} ticks");
+            return records.First(p => p.Guid == guid);
         }
     }
 }
